@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+   background:hsl(254, 88%, 90%) ; 
+    /* background: hsl(0, 0%, 100%); */
+    font-size: 1.8rem;
+}
+
+.container{
+    max-width: 37.5rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+    gap: 1.5rem;
+    padding: 2rem;
+}
+.card{
+    color: white;
+    border-radius: 1rem;
+    max-width: 32rem;
+   
+}
+.first{
+    background: hsl(256, 67%, 59%);
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem 2rem;
+}
+.first h2{
+    font-size: 4.6rem;
+    font-weight: 500;
+    /* text-align: center; */
+}
+.first h2 span{
+    color: hsl(39, 100%, 71%);
+}
+.first img{
+    width: 50%;
+    height: auto;
+}
+.second{
+    background: white;
+    color: hsl(0, 0%, 7%);
+    padding: 2rem auto;
+    padding-left: 1.5rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.second img{
+    width: 90%;
+}
+.third{
+    background:  hsl(39, 100%, 71%);
+    color: hsl(0, 0%, 7%);
+    padding: 1rem;
+}
+.third img{
+    width: 70%;
+    margin-top: 1rem;  
+}
+.fourth{
+    background: hsl(254, 29%, 67%) ;
+    color: hsl(0, 0%, 7%);
+    padding: 2rem;
+    font-size: 1.4rem;
+}
+.fourth img{
+    width: 100%;
+    margin: 1rem auto;
+}
+.fourth p{
+    text-align: center;
+    font-size: 1.8rem;
+    justify-content: center;
+    align-items: center;
+}
