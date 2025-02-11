@@ -12,18 +12,23 @@ html{
     font-size: 62.5%;
 }
 body{
-   background:hsl(254, 88%, 90%) ; 
+   background:hsl(0, 7%, 97%) ; 
     /* background: hsl(0, 0%, 100%); */
     font-size: 1.8rem;
 }
 
-.container{
+.container {
     max-width: 37.5rem;
     display: grid;
     grid-template-columns: 1fr;
-    margin: 0 auto;
     gap: 1.5rem;
     padding: 2rem;
+    margin: 0 auto;
+    min-height: 100vh; /* Ensures it takes full viewport height */
+    display: flex; /* Centers it properly */
+    flex-direction: column;
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
 }
 .card{
     color: white;
@@ -31,12 +36,14 @@ body{
     max-width: 32rem;
    
 }
-.first{
+.first {
     background: hsl(256, 67%, 59%);
-    align-items: center;
-    justify-content: center;
     text-align: center;
     padding: 3rem 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .first h2{
     font-size: 4.6rem;
@@ -53,9 +60,9 @@ body{
 .second{
     background: white;
     color: hsl(0, 0%, 7%);
-    padding: 2rem auto;
+    padding: 2rem;
     padding-left: 1.5rem;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: 900;
 }
 .second img{
@@ -71,7 +78,7 @@ body{
     margin-top: 1rem;  
 }
 .fourth{
-    background: hsl(254, 29%, 67%) ;
+    background: hsl(254, 88%, 90%) ;
     color: hsl(0, 0%, 7%);
     padding: 2rem;
     font-size: 1.4rem;
@@ -80,9 +87,75 @@ body{
     width: 100%;
     margin: 1rem auto;
 }
-.fourth p{
+.fourth p {
     text-align: center;
     font-size: 1.8rem;
-    justify-content: center;
+}
+.fifth {
+    background: hsl(256, 67%, 59%);
+    color: hsl(0, 0%, 100%);
+    display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 3rem;
+    min-height: 100%; /* Ensures the card takes full height */
+}
+
+.fifth img{
+    width: 70%;
+    align-items: center;
+
+}
+.fifth p{
+    line-height: 1;
+    padding: 3rem;
+    font-size: 2.5rem;
+    margin-bottom: -3rem;
+}
+.sixth{
+    background:  hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 7%);
+    padding: 2rem;
+    line-height: 1.5;
+}
+.sixth img{
+    width: 70%;
+    margin-top: 2rem;
+}
+.sixth p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: grey;
+}
+.seventh{
+    background:  hsl(31, 66%, 93%);
+    color: hsl(0, 0%, 7%);
+    padding: 2rem;
+    
+}
+.seventh img{
+    width: 70%;
+}
+.seventh h2{
+    line-height: 1;
+    margin-bottom: 3rem;
+    font-weight: 500;
+}
+.seventh h2 span{
+    font-style: italic;
+    color: hsl(256, 67%, 59%);
+}
+.eighth{
+    background: hsl(39, 100%, 71%);
+    padding: 2rem;
+    color: hsl(0, 0%, 7%);
+    font-weight: 500;
+    font-size: 2.5rem;
+    line-height: 1;
+}
+.eighth img{
+    width: 70%;
+    margin-top: 2rem;
 }
