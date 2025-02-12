@@ -159,3 +159,138 @@ body{
     width: 70%;
     margin-top: 2rem;
 }
+@media (min-width: 1024px) {
+    .container {
+        height: 100vh; /* Force full screen height */
+        display: grid;
+        width: 100%;
+        max-width: 144rem;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, 1fr); /* 3 equal-height rows */
+        gap: 2rem;
+        padding: 5rem 10rem; /* Reduce padding */
+        box-sizing: border-box; /* Ensures padding doesn't overflow */
+        overflow: hidden; /* Prevents content from exceeding 100vh */
+    }
+    /* First card - Hero section*/
+    /* .first {
+        grid-column: span 2;
+        grid-row: span 2;
+        padding: 4rem;
+    } */
+    
+   /* .first h2 {
+        font-size: 6rem;
+    } */
+    
+    /* .first img {
+        width: 30%;
+        margin: 2rem 0;
+    } */
+
+    /* Second card - Manage platforms */
+    /* .second {
+        grid-column: span 1;
+        grid-row: span 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    } */
+    
+    /* .second img {
+        width: 100%;
+        margin-top: auto;
+    } */
+
+    /* Third card - Consistent schedule */
+    /* .third {
+        grid-column: span 1;
+        grid-row: span 2;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .third img {
+        width: 100%;
+        margin-top: auto;
+    } */
+
+    /* Fourth card - Schedule posts */
+    /* .fourth {
+        grid-column: span 2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .fourth img {
+        width: 80%;
+    } */
+
+    /* Fifth card - Grow followers */
+    /* .fifth {
+        grid-column: span 2;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3rem;
+    }
+    
+    .fifth img {
+        width: 40%;
+    }
+    
+    .fifth p {
+        padding: 0;
+        margin: 0;
+        font-size: 3rem;
+        text-align: left;
+    } */
+
+    /* Sixth card - Growth stats */
+    /* .sixth {
+        grid-column: span 1;
+    }
+    
+    .sixth img {
+        width: 100%;
+    } */
+
+    /* Seventh card - Create content */
+    .seventh {
+        grid-column: 1 ; /* Start at column 3 */
+        grid-row: 1 ; 
+        width: 30rem;
+        height: 50vh;
+        grid-column: span 1;
+        /* display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center; */
+    }
+    
+    .seventh img {
+        width: 40%;
+    }
+    
+    .seventh h2 {
+        margin-bottom: 0;
+        font-size: 2rem;
+    }
+
+    /* Eighth card - AI writing */
+     .eighth {
+        grid-column: 1 ; /* Start at column 3 */
+        grid-row: 2 ;
+        height: 50vh; 
+        /* grid-column: span 2; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .eighth img {
+        width: 100%;
+        margin-top: auto;
+    }  
+}
