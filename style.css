@@ -28,8 +28,6 @@ body{
     padding: 2rem;
     margin: 0 auto;
     min-height: 100vh; /* Ensures it takes full viewport height */
-    display: flex; /* Centers it properly */
-    flex-direction: column;
     justify-content: center; /* Center vertically */
     align-items: center; /* Center horizontally */
 }
@@ -229,6 +227,7 @@ body{
     }
     .third h2{
         font-size: 3rem;
+        line-height: 1;
     }
 
     /* Fourth card - Schedule posts */
